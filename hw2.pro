@@ -24,9 +24,9 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+    ui_grade_calculator.cpp
 
-HEADERS  += mainwindow.h \
-    grade_calculator.h
+HEADERS  += \
+    ui_grade_calculator.h
 
 FORMS    += mainwindow.ui
